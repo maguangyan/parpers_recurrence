@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "low_cost_systm", "low_cost_systm\low_cost_systm.vcxproj", "{CACF2821-19A7-4685-B37A-8007237FBC5E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Casting_sand_hole_defect_extraction", "Casting_sand_hole_defect_extraction\Casting_sand_hole_defect_extraction.vcxproj", "{99495A1E-D321-4AAD-BD74-7455C1B0FB16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{CACF2821-19A7-4685-B37A-8007237FBC5E}.Release|x64.Build.0 = Release|x64
 		{CACF2821-19A7-4685-B37A-8007237FBC5E}.Release|x86.ActiveCfg = Release|Win32
 		{CACF2821-19A7-4685-B37A-8007237FBC5E}.Release|x86.Build.0 = Release|Win32
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Debug|x64.ActiveCfg = Debug|x64
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Debug|x64.Build.0 = Debug|x64
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Debug|x86.ActiveCfg = Debug|Win32
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Debug|x86.Build.0 = Debug|Win32
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x64.ActiveCfg = Release|x64
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x64.Build.0 = Release|x64
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x86.ActiveCfg = Release|Win32
+		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

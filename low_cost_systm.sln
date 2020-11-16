@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "low_cost_systm", "low_cost_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Casting_sand_hole_defect_extraction", "Casting_sand_hole_defect_extraction\Casting_sand_hole_defect_extraction.vcxproj", "{99495A1E-D321-4AAD-BD74-7455C1B0FB16}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathGlTest", "MathGlTest\MathGlTest.vcxproj", "{67B582FD-2EEF-4E98-A973-E2E23F44D335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x64.Build.0 = Release|x64
 		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x86.ActiveCfg = Release|Win32
 		{99495A1E-D321-4AAD-BD74-7455C1B0FB16}.Release|x86.Build.0 = Release|Win32
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Debug|x64.ActiveCfg = Debug|x64
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Debug|x64.Build.0 = Debug|x64
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Debug|x86.ActiveCfg = Debug|Win32
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Debug|x86.Build.0 = Debug|Win32
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Release|x64.ActiveCfg = Release|x64
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Release|x64.Build.0 = Release|x64
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Release|x86.ActiveCfg = Release|Win32
+		{67B582FD-2EEF-4E98-A973-E2E23F44D335}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

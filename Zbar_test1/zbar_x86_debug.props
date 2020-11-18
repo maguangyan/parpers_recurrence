@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>D:\opencv\build\x64\vc14\bin;D:\Program Files (x86)\ZBar\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\Program Files (x86)\ZBar\include;E:\workSpace\GitHub_workSpace\Leowootsi-plotdemo-master\plotdemo\libmathgl\include;D:\opencv\build\include\opencv;D:\opencv\build\include\opencv2;D:\opencv\build\include;D:\Program Files (x86)\ZBar\include\zbar;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files (x86)\ZBar\lib;D:\opencv\build\x64\vc14\lib;E:\workSpace\GitHub_workSpace\Leowootsi-plotdemo-master\plotdemo\libmathgl;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>zbar_x64_debug</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>mgl-static.lib;opengl32.lib;glu32.lib;libpng16.lib;zlib.lib;opencv_world331d.lib;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_STDIO_ISO_WIDE_SPECIFIERS;MGL_STATIC_DEFINE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
